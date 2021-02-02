@@ -1,0 +1,272 @@
+body {
+    background-color: #fff;
+    padding: 0px;
+    margin: 0px;
+}
+
+/*.....Navigation....*/
+
+.navbar {
+    background-color: rgb(255, 255, 255) !important;
+}
+.nav-name {
+    color: black;
+    font-size:25px;
+}
+.nav-link  {
+    font-weight: 500 !important; 
+    padding: 10px !important;
+}
+.nav-item {
+    text-align: center;
+}
+.signin-btn {
+    background-color: #fff !important;
+    color: rgb(3, 128, 245) !important;
+    font-weight: 500;
+}
+.signup-btn {
+    background-color: rgb(3, 128, 245) !important;
+    color: rgb(255, 255, 255) !important;
+    font-weight: 500;
+}
+/*....Navigation Hover ..*/
+
+.nav-link:hover {
+    font-weight: 600 !important; 
+  font-size: 20px !important;
+}
+.nav-name:hover {
+    color: rgba(0, 0, 0, 0.794);
+}
+
+/*.......Login form...*/
+
+#login-form {
+    background-color: rgb(224, 239, 253);
+    padding-top: 100px;
+   padding-bottom: 100px;
+}
+.signin-card {
+    padding: 40px;
+}
+
+/*....sign up form...*/
+
+#signup-form {
+    background-color: rgb(224, 239, 253);
+    padding-top: 100px;
+   padding-bottom: 100px;
+}
+.sign-up-h1 {
+    text-align: center;
+    font-size: large;
+    font-weight: 500;
+    padding-bottom: 55px;
+}
+/*....Carosel...*/
+.carosel-text {
+    font-size: 40px !important;
+    font-weight: bold;
+}
+/*..... About ...*/
+
+#About {
+    background-color: rgb(224, 239, 253);
+    padding-top: 60px;
+    padding-bottom: 170px;
+}
+.About-header h1 {
+    padding-top: 50px;
+    padding-bottom: 80px;
+    font-size: 30px;
+    font-weight: 535;
+    text-align: center;
+}
+/*.....End Of About ...*/
+
+
+/*.....Our Services...*/
+#services {
+    background-color: rgb(246, 246, 246);
+    padding-top: 60px;
+    padding-bottom: 170px;
+}
+.service-header h1 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 30px;
+    font-weight: 535;
+    text-align: center;
+}
+.card {
+   margin: 50px;
+}
+#services img {
+    height: 200px;
+}
+/*......End Of Services..*/
+
+
+/*..... Partners ...*/
+
+#partners {
+    background-color: rgb(224, 239, 253);
+    padding-top: 50px;
+    padding-bottom: 150px;
+}
+.partner-header h1 {
+    padding-top: 50px;
+    padding-bottom: 80px;
+    font-size: 30px;
+    font-weight: 535;
+    text-align: center;
+}
+/*......End Of Partners ..*/
+
+
+/*.....Footer ...*/
+
+#footer .row {
+margin-top: 50px;
+margin-bottom: 20px;
+padding: 20px;
+}
+.footer-btn {
+  text-align: center;
+}
+.footer-item {
+    list-style: none;
+    text-align: center;
+}
+.footer-link{
+    font-weight: 400;
+}
+.footer-link:hover{
+    font-weight: 700;
+    color:rgb(3, 128, 245) !important;
+}
+.footer-item {
+    text-align: left;
+}
+.media-footer {
+    font-weight: 580;
+    text-align: center;
+}
+.media-footer p {
+    font-size: 17px;
+    padding: 10px;
+}
+#footer ul p{
+    text-align: justify;
+    font-weight: bold;
+}
+
+/*......User....*/
+.user-nav-name {
+    text-align: left;
+}
+.content {
+    margin-top: 50px;
+}
+.color-1 {
+    background-color: #fff;
+}
+.color-2{
+    background-color: rgb(0, 98, 255);
+}
+.text-1{
+color:black !important ;
+}
+.text-2{
+    color:rgb(255, 255, 255) !important ;
+}
+.h-text{
+    padding-top: 30px;
+    font-size: 29px;
+    color: black;
+    text-align: left;
+}
+.p-text{
+    padding-top: 20px;
+    font-size: 22px;
+    font-weight: 300;
+}    
+/* The side navigation menu */
+.sidebar {
+    margin-top:75px;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+  }
+  
+  /* Sidebar links */
+  .sidebar a {
+    display: block;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+  }
+  
+  /* Active/current link */
+  .sidebar a.active {
+    background-color: #002df5;
+    color: white;
+  }
+  
+  /* Links on mouse-over */
+  .sidebar a:hover:not(.active) {
+    background-color: rgb(255, 255, 255);
+    color: rgb(4, 0, 253);
+    font-size: large;
+  }
+  
+  /* Page content. The value of the margin-left property should match the value of the sidebar's width property */
+  div.content {
+    margin-left: 200px;
+    padding: 1px 16px;
+    height: 1000px;
+  }
+  #preview {
+      padding-top: 200px;
+      padding-bottom: 150px;
+  }
+  #preview .row {
+    background-color: rgba(134, 197, 255, 0.829);
+    padding: 50px;
+  }
+
+  /* On screens that are less than 700px wide, make the sidebar into a topbar */
+  @media screen and (max-width: 700px) {
+    .sidebar {
+      width: 100%;
+      height: auto;
+      position: relative;
+    }
+    .sidebar a {float: left;}
+    div.content {margin-left: 0;}
+  }
+  
+  /* On screens that are less than 400px, display the bar vertically, instead of horizontally */
+  @media screen and (max-width: 400px) {
+    .sidebar a {
+      text-align: center;
+      float: none;
+    }
+  }
+
+  @media screen and (max-width: 420px) {
+    .login-border{
+        display: none;
+    }
+  }
+  
+  @media screen and (min-width: 420px) {
+    .login-non{
+        display: none;
+    }
+  }
+
